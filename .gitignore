@@ -1,0 +1,14 @@
+# Private keys and host records never belong in this repository
+*_rsa
+*.key
+*.pem
+known_hosts
+
+# Local backups and device dumps
+backup/
+*-backup-*/
+*.bin
+*.img
+
+# Local notes that may contain device identifiers
+private/
